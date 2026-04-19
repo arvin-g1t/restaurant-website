@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cello Café & Restaurant</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Zum Hauptinhalt springen</a>
+
+<header class="header">
+<div class="nav">
+
+<a href="index.html" class="logo">CELLO CAFÉ</a>
+
+<button id="burger" class="burger" aria-label="Menü öffnen" aria-expanded="false">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+<nav id="navLinks" class="nav-links">
+<a href="menu.html">Speisekarte</a>
+<a href="#bewertungen">Bewertungen</a>
+<a href="#socials">Socials</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+
+</div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+
+<section class="hero">
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+<h1>Cello Café & Restaurant</h1>
+
+<p>Genießen Sie mediterrane Küche, Pizza, Pasta und mehr</p>
+
+<div class="hero-buttons">
+<a href="menu.html" class="btn primary">Speisekarte ansehen</a>
+<a href="#bewertungen" class="btn secondary">Bewertungen</a>
+</div>
+</div>
+</section>
+
+<!-- INFO -->
+
+<section class="info-section" id="bewertungen">
+<div class="container info-grid">
+
+<div class="info-card">
+<h2>Über uns</h2>
+<p>
+Willkommen im Cello Café & Restaurant. Wir bieten frische mediterrane Küche,
+hausgemachte Pasta, knusprige Pizza und ausgewählte Getränke.
+</p>
+</div>
+
+<div class="info-card rating-card">
+<h2>Bewertungen</h2>
+
+<a href="https://maps.app.goo.gl/hMcQRfTf3D9N8sHa9" target="_blank" class="rating-link">
+<div class="rating-stars">★★★★★</div>
+<p class="rating-text"><strong>4.9</strong> / 5 aus <strong>192</strong> Bewertungen</p>
+</a>
+
+<p class="rating-date">Stand: 17.04.2026</p>
+
+<a href="https://maps.app.goo.gl/hMcQRfTf3D9N8sHa9" target="_blank" class="btn primary">
+Auf Google bewerten
+</a>
+
+</div>
+
+</div>
+</section>
+
+<!-- MAP -->
+
+<section class="map-full">
+
+<div id="mapOverlay" class="map-overlay">
+<div class="map-content">
+<h3>Standort anzeigen</h3>
+<p>Durch das Laden der Karte werden Daten an Google übertragen.</p>
+
+<button id="loadMapBtn" class="btn primary">
+Standort laden
+</button>
+</div>
+</div>
+
+<div id="mapContainer"></div>
+
+</section>
+
+<!-- KONTAKT -->
+
+<section class="kontakt" id="kontakt">
+<div class="container kontakt-grid">
+
+<div>
+<h2>Kontakt</h2>
+
+<div class="kontakt-info">
+<p><strong>Cello Café & Restaurant</strong></p>
+<p>Köln</p>
+<p>Telefon: 000000000</p>
+<p>E-Mail: info@restaurant.de</p>
+
+<p>Öffnungszeiten:</p>
+<p>Mo - So: 11:00 - 23:00</p>
+</div>
+</div>
+
+<div id="socials">
+<h2>Social Media</h2>
+
+<div class="social-box">
+
+<!-- INSTAGRAM -->
+
+<a href="https://www.instagram.com/cellokoeln" target="_blank" class="social-card instagram">
+<div class="social-icon">
+<svg viewBox="0 0 24 24" fill="currentColor">
+<path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 
+0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 
+4a6 6 0 110 12 6 6 0 010-12zm6.5-.75a1.25 
+1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"/>
+</svg>
+</div>
+
+<div>
+<h3>Instagram</h3>
+<p>@cellokoeln</p>
+</div>
+</a>
+
+<!-- TIKTOK -->
+
+<div class="social-card tiktok disabled">
+
+<div class="social-icon">
+<svg viewBox="0 0 24 24" fill="currentColor">
+<path d="M9 3v12.5A3.5 3.5 0 115.5 12H7a5 5 0 
+105 5V9.7a6.8 6.8 0 004 1.3V9.3a4.7 
+4.7 0 01-4-4.3H9z"/>
+</svg>
+</div>
+
+<div>
+<h3>TikTok</h3>
+<p>Coming soon</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer class="footer">
+<div class="container footer-grid">
+
+<div>
+<h3>Cello Café</h3>
+<p>Mediterrane Küche & Pizza</p>
+</div>
+
+<div>
+<a href="menu.html">Speisekarte</a>
+<a href="impressum.html">Impressum</a>
+<a href="datenschutz.html">Datenschutz</a>
+</div>
+
+</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
